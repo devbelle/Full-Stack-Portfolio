@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    background: aqua;
+    }
+  
+main{
+      font-family: "Poppins", sans-serif;
+      margin:0;
+      
+    }
+.side-nav{
+        width: 160px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 5px 5px;
+        background-color: chocolate;
+    }
