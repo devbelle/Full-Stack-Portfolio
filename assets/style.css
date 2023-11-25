@@ -1,0 +1,84 @@
+
+.Devin{
+    height: 200px;
+    width: 150px;
+    justify-content: center;
+    }  
+.Portfolio-Links{
+    list-style: none;
+    line-height: 15px;
+    }
+
+
+.About-Me{
+    margin-left:200px;
+}
+.background-image{
+    display: flex;
+}
+
+.top-img{
+    margin-left:200px;
+    height: 720px;
+    width: 1080px; 
+    position: relative;
+    text-align: center;
+    
+}
+#top-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#title-quote{
+    display: inline;
+    position: absolute;
+    color: beige;
+    top: 8px;
+    right: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 5px 5px;
+}
+
+
+#horiseon{
+    grid-column: 1  /span 2;
+    height: 350px;
+    width: 800px;
+    border-color: black;
+    border-style: groove;
+    border-width: 1px;
+    margin-left: 200px;
+}
+#horiseon > img{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+}
+
+.project{
+    border-color: black;
+    border-style: groove;
+    border-width: 1px;
+    width: 500px;
+    height:250px;
+    margin: 25px;
+    margin-left: 200px;
+}
+.project > img{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+}
+.Contact-Me{
+    margin-left: 200px;
+}
+.Contact-Links > li{
+    display: inline-block;
+    
+}
