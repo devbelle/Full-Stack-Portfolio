@@ -1,84 +1,135 @@
+h3{
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+h3:hover{
+    background-color: #772014;
+    color: #fff;
+  }
 
-.Devin{
-    height: 200px;
-    width: 150px;
-    justify-content: center;
-    }  
-.Portfolio-Links{
-    list-style: none;
-    line-height: 15px;
-    }
+h3:active{
+    font-size: 180%;
+    box-shadow: 0 0 10px #000 inset;
+  }
 
+h3:focus{
+    outline: none;
+    border-color: #8ac4ff;
+}
 
-.About-Me{
+.about-me{
     margin-left:200px;
 }
-.background-image{
-    display: flex;
+.contact-me{
+    margin-left: 200px;
 }
-
-.top-img{
-    margin-left:200px;
-    height: 720px;
-    width: 1080px; 
-    position: relative;
-    text-align: center;
+.contact-links > li{
+    display: inline-block;
     
 }
-#top-img{
-    max-width: 100%;
-    max-height: 100%;
-}
-#title-quote{
-    display: inline;
-    position: absolute;
-    color: beige;
-    top: 8px;
-    right: 16px;
-    background: rgba(0, 0, 0, 0.6);
-    
-}
-
 .content{
     display:grid;
     grid-template-columns: 1fr 4fr;
-    grid-gap: 5px 5px;
 }
-
-
-#horiseon{
-    grid-column: 1  /span 2;
-    height: 350px;
-    width: 800px;
-    border-color: black;
-    border-style: groove;
-    border-width: 1px;
-    margin-left: 200px;
-}
-#horiseon > img{
-    object-fit:fill;
-    width: 100%;
-    height: 100%;
-}
+.devin{
+    height: 200px;
+    width: 150px;
+    justify-content: center;
+}  
+.portfolio-links{
+    list-style: none;
+    line-height: 30px;
+    }
 
 .project{
     border-color: black;
     border-style: groove;
-    border-width: 1px;
+    border-width: 5px;
     width: 500px;
     height:250px;
     margin: 25px;
     margin-left: 200px;
+    box-shadow: 10px 10px lightblue;
 }
+
+.project:active{
+    box-shadow: 10px 0 0 gold inset;
+}
+.project:focus{
+    outline: none;
+    box-shadow: gold;
+}
+.project:hover{
+    box-shadow: gold;
+}
+
 .project > img{
     object-fit:fill;
     width: 100%;
     height: 100%;
 }
-.Contact-Me{
+#horiseon{
+    grid-column: 1  /span 2;
+    height: 350px;
+    width: 800px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-width: 1px;
     margin-left: 200px;
+    box-shadow: 10px 10px lightblue;
 }
-.Contact-Links > li{
-    display: inline-block;
-    
+#horiseon:hover{
+    background-color: #772014;
+    color: yellow;
+}
+
+#horiseon > img{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+}
+#horiseon:hover{
+    box-shadow: gold;
+  }
+
+#horiseon:active{
+    box-shadow: 10px 0 0 gold inset;
+  }
+#horiseon:focus{
+    outline: none;
+    box-shadow: gold;
+  }
+@media screen and (max-width: 768px) {
+    *{
+      background-color: whitesmoke;
+
+    }
+    h3{
+        padding: 10px;
+    }
+    .content{
+        display:block;
+        grid-template-columns: 1fr 1fr
+    }
+    .project{
+        width: 250px;
+        height: 125px; 
+        border-width: 5px; 
+    }
+    .project > img{
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+    }
+    #horiseon{ 
+        height: 175px;
+        width: 400px;   
+    }
+    #horiseon > img{
+        object-fit: scale-down;
+        width: 100%;
+        height: 100%;
+    }
 }
