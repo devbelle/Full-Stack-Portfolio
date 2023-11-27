@@ -13,6 +13,8 @@ Link below:
 
 https://devbelle.github.io/Full-Stack-Portfolio/
 
+![Screenshot](Full-Stack-Portfolio.png)
+
 
 
 ##Credits
