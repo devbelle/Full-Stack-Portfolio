@@ -30,7 +30,7 @@ h3:active{
 /*The project section that has all of the content displayed as a grid to be put into columns and rows.*/
 .content{
     display:grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 /*My portrait image displayed in the header navigation bar.*/
@@ -59,19 +59,19 @@ h3:active{
 }
 
 /*Keeps the horiseon project image inside of the div container.*/
-#horiseon > img{
+#vision > img{
     object-fit:fill;
     width: 100%;
     height: 100%;
 }
 
 /*Makes the box shadow turn dark blue when above the horiseon project image.*/
-#horiseon:hover{
+#vision:hover{
     box-shadow: 10px 10px darkblue;
   }
 
 /*Changes the box shadow to the same color as the background to simulate an object being pressed.*/
-#horiseon:active{
+#vision:active{
     box-shadow: 5px 5px beige;
   }
 
@@ -104,12 +104,12 @@ h3:active{
         height: 100%;
     }
     /*Horiseon project changes size to match with smaller display.*/
-    #horiseon{ 
+    #vision{ 
         height: 175px;
         width: 400px;   
     }
     /*Horiseon image changes to fill on the smaller div container.*/
-    #horiseon > img{
+    #vision > img{
         object-fit: scale-down;
         width: 100%;
         height: 100%;
