@@ -1,3 +1,29 @@
 body{
     background: beige;
 }
+#hover-text{
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0%;
+    transition: ease;
+}
+#hover-text::before{
+    content: "";
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #000 #0000 #0000 #0000;
+}
+.cleaner_h10:hover #hover-text{
+    top: -130%;
+    visibility: visible;
+    opacity: 1;
+}
+
